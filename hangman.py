@@ -9,7 +9,7 @@ class Pendu:
         self.essais = 11 # Nombre d'essais
         self.alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M',
                          'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'] # Lettres valides
-        for caracter in mot:
+        for caracter in self.liste_lettres:
             assert caracter in self.alphabet, "Merci de n'utiliser que des lettres sans accents et sans caractères spéciaux."
         self.play() # Lance le jeu automatiquement
         
